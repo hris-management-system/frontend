@@ -1,0 +1,9 @@
+{
+  "name": "hris-frontend",
+  "private": true,
+  "packageManager": "pnpm@11.1.2",
+  "scripts": {
+    "web": "pnpm --filter web dev",
+    "mobile": "pnpm --filter mobile start"
+  }
+}
